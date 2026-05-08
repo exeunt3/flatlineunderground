@@ -1,0 +1,14 @@
+---
+interface Props {
+  name: string;
+  tagline: string;
+  status: string;
+}
+const { name, tagline, status } = Astro.props;
+---
+
+<li class="transmission">
+  <span class="name">{name}</span>
+  <span class="tagline">{tagline}</span>
+  <span class="status">{status}</span>
+</li>

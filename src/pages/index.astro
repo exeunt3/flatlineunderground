@@ -1,0 +1,81 @@
+---
+import '../styles/tokens.css';
+import '../styles/base.css';
+
+import Hero from '../components/Hero.astro';
+import Section from '../components/Section.astro';
+
+import Transmission from '../data/manifesto/00-transmission.mdx';
+import Premise from '../data/manifesto/01-premise.mdx';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>flatline underground</title>
+    <meta
+      name="description"
+      content="flatline underground — forging cybernetic monsters from the sludge of postmodernity. weekly app drops attempting contact with feral entities."
+    />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+    />
+  </head>
+  <body>
+    <Hero />
+
+    <main>
+      <Section index="00" title="dispatch">
+        <Transmission />
+      </Section>
+
+      <Section index="01" title="premise">
+        <Premise />
+      </Section>
+
+      <Section index="02" title="transmissions">
+        <p>no apps yet.</p>
+      </Section>
+
+      <Section index="03" title="build">
+        <p>the following markdown file is a machine-optimize orientation for FU projects. it is a suggestion.</p>
+
+        <p>(once you've flatlined, you are free to disregard this suggestion.)</p>
+
+        <p>our general orientation is to generate apps that listen for weird coherences in feral systems.</p>
+
+        <p>these systems may be infrastructural, ecological, computational, social, economic, though in the anthropocene flatline, the expectation is that inputs will all be hybrid.</p>
+
+        <p>in the garden of this decaying and spectral hybridity, FU apps are made up of perceptual instruments.</p>
+
+        <p>some instruments pursue <em>intensive</em> anomalies:</p>
+        <p>atmospheres, resonances, moods, sonic pressure, symbolic recurrence, perceptual tension, uncanny coherence.</p>
+
+        <p>some pursue <em>extensive</em> anomalies:</p>
+        <p>unexpected competency, adaptive recovery, causal emergence, recursive stabilization, nontrivial organization under perturbation.</p>
+
+        <p>the file below suggests that a successful FU app be made up of a mixture of both elements, to maximize surface area for human and machine discovery.</p>
+
+        <p>once you've flatlined, you are free to disregard this suggestion.</p>
+
+        <p>find markdown file <a href="/AppDevGuide.md" target="_blank" rel="noopener"><em>here</em></a></p>
+      </Section>
+
+      <Section index="04" title="contact">
+        <p><a href="mailto:flatlineunderground@protonmail.com">flatlineunderground@protonmail.com</a></p>
+      </Section>
+
+      <footer>
+        flatline underground is a project of <em>the open machine</em>. ✕ {new Date().getFullYear()}
+      </footer>
+    </main>
+  </body>
+</html>

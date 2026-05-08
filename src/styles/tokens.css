@@ -1,0 +1,39 @@
+:root {
+  --bone: #ECE7DC;
+  --iron: #0B0B0C;
+  --oxide: #8A2A1B;
+  --signal: #6BC1B4;
+
+  --bone-mute: rgba(236, 231, 220, 0.62);
+  --bone-faint: rgba(236, 231, 220, 0.18);
+
+  --measure: 64ch;
+
+  --font-mono:
+    ui-monospace, "Berkeley Mono", "JetBrains Mono",
+    "IBM Plex Mono", Menlo, Consolas, monospace;
+
+  --font-serif:
+    "EB Garamond", "Sorts Mill Goudy", "Garamond",
+    "Hoefler Text", "Times New Roman", Times, serif;
+
+  --font-display:
+    "Anton", "Helvetica Neue Condensed Bold",
+    "Oswald", Impact, "Arial Narrow Bold", sans-serif;
+
+  --fs-xs: 0.78rem;
+  --fs-sm: 0.88rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.18rem;
+  --fs-xl: 1.6rem;
+
+  --lh-tight: 1.32;
+  --lh-prose: 1.62;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.6rem;
+  --space-4: 2.6rem;
+  --space-5: 4.2rem;
+  --space-6: 6.8rem;
+}
