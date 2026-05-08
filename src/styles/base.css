@@ -152,11 +152,15 @@ blockquote p:last-child {
 }
 
 @media (min-width: 640px) {
-  :root { --measure: 58ch; }
+  :root { --measure: 78ch; }
+  main { padding-inline: var(--space-4); }
+  .hero__inner { padding-inline: var(--space-4); }
 }
 
 @media (min-width: 1024px) {
-  :root { --measure: 52ch; }
+  :root { --measure: 92ch; }
+  main { padding-inline: var(--space-5); }
+  .hero__inner { padding-inline: var(--space-5); }
 }
 
 /* SECTIONS ────────────────────────────────────────────────── */
