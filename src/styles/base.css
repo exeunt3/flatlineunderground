@@ -20,14 +20,6 @@ main {
   padding: 0 var(--space-3) var(--space-6);
 }
 
-@media (min-width: 640px) {
-  main { padding-inline: var(--space-4); }
-}
-
-@media (min-width: 1024px) {
-  main { padding-inline: var(--space-5); }
-}
-
 p {
   margin: 0 0 var(--space-2);
   text-wrap: pretty;
@@ -160,11 +152,11 @@ blockquote p:last-child {
 }
 
 @media (min-width: 640px) {
-  .hero__inner { padding-inline: var(--space-4); }
+  :root { --measure: 58ch; }
 }
 
 @media (min-width: 1024px) {
-  .hero__inner { padding-inline: var(--space-5); }
+  :root { --measure: 52ch; }
 }
 
 /* SECTIONS ────────────────────────────────────────────────── */
